@@ -10,3 +10,23 @@ h2+p {
     list-style: none;
     border-bottom: 1px solid grey;
 }
+
+a:visited {
+    color:red;
+}
+
+a:link {
+    color:green;
+}
+
+a:hover {
+    color:pink;
+}
+
+li::first-letter {
+    font-weight: bold;
+}
+
+[title~="BCIT"] {
+    background-color: yellow;
+}
